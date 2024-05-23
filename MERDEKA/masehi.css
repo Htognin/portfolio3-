@@ -1,0 +1,96 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: bubble;
+}
+
+body {
+  background-color: #f7f2ee;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: bubble;
+  src: url(img/font/Bubble\ Bobble.otf);
+}
+
+.container {
+  position: absolute;
+  margin-left: 30px;
+  width: 95%;
+  height: 100vh;
+}
+
+header {
+  z-index: 999;
+  width: 95%;
+  position: fixed;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-left h2 {
+  font-family: bubble;
+  font-size: xx-large;
+  color: #c08383;
+}
+
+.section1 {
+  position: absolute;
+  width: 98%;
+}
+
+.img {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+}
+.img img {
+  position: relative;
+  display: flex;
+  margin: auto;
+  height: 50rem;
+  top: -25rem;
+}
+
+.img h1 {
+  position: relative;
+  display: flex;
+  top: -45rem;
+  left: 30rem;
+  font-size: 4rem;
+  color: #984fc2;
+}
+
+.section-2 {
+  position: relative;
+  top: 27rem;
+}
+
+.konten {
+  display: flex;
+  border: 2px solid #c08383;
+}
+
+.judul {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: center;
+  width: 30rem;
+  padding: 2px;
+}
+
+.isi {
+  padding-left: 2rem;
+  width: 80rem;
+  border-left: 2px solid #c08383;
+}
